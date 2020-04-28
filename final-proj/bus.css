@@ -1,0 +1,72 @@
+ body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        background-color: rgba(156, 226, 43, 0.5);
+        background-image: url(bus/mongkok2.jpg);
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+      }
+
+      #container2 {
+        background-color: rgba(255, 255, 255, 0.253);
+        opacity: 0.3;
+        mix-blend-mode: multiply;
+        background-image: url(bus/mongkok2.jpg);
+        background-size: cover;
+        position: fixed;
+        top: 5;
+        left: 5px;
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+        animation: move 8s;
+        animation-iteration-count: infinite;
+      }
+
+      #flower > video{
+        mix-blend-mode: color-burn;
+        position: absolute;
+        top: 79%;
+        height: auto;
+        width: auto;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -10;
+      }
+
+      #water > img{
+        position: absolute;
+        right:48.5%;
+        height: 100%;
+        width: 65px;
+        z-index: 10;
+      }
+
+       #bus1 {
+        mix-blend-mode: lighten;
+        position: absolute;
+        right: 0;
+        top:-70px;
+        z-index: 10;
+      }
+      #bus2{
+        mix-blend-mode: lighten;
+        position: absolute;
+        left: 0;
+        top:-70px;
+        z-index: 10;
+      }
+      #busgif{
+        width: 720px;
+        height:700px;
+      }

@@ -16,6 +16,25 @@ body {
         height: auto;
       }
 
+      #peach,#mangosteen,#durian,#veg,#bokchoy{
+        animation: danceright 5s;
+        animation-iteration-count: infinite;
+      }
+      #lychee,#dragonfruit,#lett,#leek,#spinach,#mango{
+        animation: danceleft 7s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes danceright{
+        0% { transform:  rotate(0deg); }
+        50% { transform: rotate(10deg);}
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes danceleft{
+        0% { transform:  rotate(0deg); }
+        50% { transform: rotate(-10deg);}
+        100% { transform: rotate(0deg); }
+      }
+
   
   
       #peach {
@@ -119,10 +138,19 @@ body {
         height:45px;
       }
 
-     #basket{
+     /* #basket{
        position: absolute;
-       left:24%;
-       bottom:0;
-       width: 220px;
-       height:150px;
+       right:15%;
+       bottom:20%;
+       width: 320px;
+       height:350px;
+     } */
+
+     .droptarget{
+      /* background-color: blue; */
+      position: absolute;
+      right:19%;
+      bottom:19%;
+      width: 200px;
+      height:150px;
      }

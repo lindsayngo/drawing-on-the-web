@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  @keyframes fade{
+    0% {
+      opacity:1;
+    }
+    16% {
+      opacity:1;
+    }
+    20% {
+      opacity:0.4;
+    }
+    96% {
+      opacity:0.4;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+#container div{
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+#container div:nth-of-type(1) {
+    animation-delay: 4s;
+
+    background-image: url(alley_.JPG);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  #container div:nth-of-type(2){
+    animation-delay: 3s;
+
+    background-image: url(darkalley.JPG);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  #container div:nth-of-type(3){
+    animation-delay: 2s;
+
+    background-image: url(floweralley.JPG);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  #container div:nth-of-type(4){
+    animation-delay: 1s;
+
+    background-image: url(j2.JPG);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  #container div:nth-of-type(5){
+    animation-delay: 0;
+    background-image: url(j1.JPG);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+  }

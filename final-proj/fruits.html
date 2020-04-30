@@ -5,25 +5,64 @@
     <meta charset="utf-8">
     <title>HTML CSS</title>
     <link rel="stylesheet" href="fruits.css">
+    <script src="fruits.js"></script>
   </head>
 
   <body>
     <div id="container">
-        <img id="peach" src="fruits/peaches.png">
-        <img id="dragonfruit" src="fruits/dragonfruit.png">
-        <img id="lychee" src="fruits/lychee.png">
-        <img id="mango" src="fruits/mango.png">
-        <img id="mangosteen" src="fruits/mangosteen.png">
-        <img id="durian" src="fruits/durian.png">
-        <img id="lett" src="fruits/lett.png">
-        <img id="spinach" src="fruits/spinach.png">
-        <img id="bokchoy" src="fruits/bokchoy.png">
-        <img id ="veg" src="fruits/veg.png">
-        <img id="leek" src="fruits/leek.png">
-<!-- 
-        <img id="meat" src="fruits/meatslice.png"> -->
 
-        <img id="basket" src ="fruits/bluebasket.png">
+      
+        <img
+        ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"
+        id="peach"
+        src="fruits/peaches.png">
+
+
+        <img id="dragonfruit" ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/dragonfruit.png">
+        
+        <img id="lychee"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/lychee.png">
+
+        <img id="mango"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/mango.png">
+
+        <img id="mangosteen"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/mangosteen.png">
+
+        <img id="durian"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/durian.png">
+
+        <img id="lett"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/lett.png">
+
+        <img id="spinach"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/spinach.png">
+
+        <img id="bokchoy"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/bokchoy.png">
+
+        <img id ="veg"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/veg.png">
+
+        <img id="leek"         ondragstart="dragStart(event)"
+        ondragover="allowDrop(event)" 
+        draggable="true"src="fruits/leek.png">
+
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <!-- <img id="basket" src ="fruits/bluebasket.png"> -->
+
     </div>
 
   </body>

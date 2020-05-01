@@ -1,3 +1,14 @@
+
+
+      audio {
+        z-index: 100;
+        mix-blend-mode: lighten;
+        position: absolute;
+        top: 88%;
+        width: 600px; 
+        transform: scale(.65);
+      }
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +43,7 @@ body {
 #container div:nth-of-type(1) {
     animation-delay: 4s;
 
-    background-image: url(alley_.JPG);
+    background-image: url(street/alley_.JPG);
     background-size: cover;
     position: fixed;
     top: 0;
@@ -46,7 +57,7 @@ body {
   #container div:nth-of-type(2){
     animation-delay: 3s;
 
-    background-image: url(darkalley.JPG);
+    background-image: url(street/darkalley.JPG);
     background-size: cover;
     position: fixed;
     top: 0;
@@ -60,7 +71,7 @@ body {
   #container div:nth-of-type(3){
     animation-delay: 2s;
 
-    background-image: url(floweralley.JPG);
+    background-image: url(street/floweralley.JPG);
     background-size: cover;
     position: fixed;
     top: 0;
@@ -74,7 +85,7 @@ body {
   #container div:nth-of-type(4){
     animation-delay: 1s;
 
-    background-image: url(j2.JPG);
+    background-image: url(street/j2.JPG);
     background-size: cover;
     position: fixed;
     top: 0;
@@ -87,7 +98,7 @@ body {
 
   #container div:nth-of-type(5){
     animation-delay: 0;
-    background-image: url(j1.JPG);
+    background-image: url(street/j1.JPG);
     background-size: cover;
     position: fixed;
     top: 0;

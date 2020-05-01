@@ -1,3 +1,15 @@
+
+      audio {
+        z-index: 100;
+        mix-blend-mode: lighten;
+        position: absolute;
+        top: 88%;
+        width: 600px; 
+        transform: scale(.65);
+      }
+
+
+
 body {
         margin: 0;
         padding: 0;

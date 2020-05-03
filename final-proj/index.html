@@ -4,29 +4,113 @@
   <head>
     <meta charset="utf-8">
     <title>Final Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
   </head>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      background-color: rgba(1, 255, 86, 0.397);
+      background-image: url(housecopy.JPG);
+
+      background-size: cover;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      width: auto;
+      height: auto;
+      
+    }
+    #container2{
+      opacity: 0.5;
+      background-image: url(light3.gif);
+      background-size: cover;
+      mix-blend-mode: multiply;
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      width: auto;
+      height: auto;
+    }
+
+    #links{
+      position: absolute;
+      bottom: 29%;
+      left: 20%;
+      width: 130px;
+      height: 160px;
+      opacity: 0.5;
+      /* background-color: rgb(255, 255, 255); */
+      font-family: 'Barlow', sans-serif;
+      padding: 10px;
+      z-index: 100;
+    }
+    a{
+      text-decoration: none;
+      color: #a0eee9;
+
+    }
+    .link{
+      margin: 18px;
+    }
+
+
+    #dgif{
+      position: absolute;
+      bottom: 38%;
+      left: 13%;
+      width: 160px;
+      height: 160px;
+      opacity: 0.3;
+      mix-blend-mode: color-dodge;
+    }
+  
+
+    </style>
 
   <body>
+
+  
     <div id="container">
-        <div id="subway">
+        <div id="dgif">
+            <img id="slowgif" src="slow2.gif">
+        </div>
+    </div>
+
+    <div id = "container2">
+  
+    </div>
+
+    <div id = "links">
+ 
+        <div class="link" id="subway">
             <a href="subway.html"> subway </a>
         </div>
 
-        <div id="bus ride">
+        <div class="link" id="bus ride">
             <a href="bus.html"> bus </a>
         </div>
 
-        <div id="market">
+        <div class="link" id="market">
             <a href="fruits.html"> fruits </a>
         </div>
 
-        <div id="walk home">
+        <div class="link" id="walk home">
             <a href="street.html"> street </a>
         </div>
+               
+      </div>
 
-    </div>
-
-    <script src="street.js"> </script>
+    <script src="index.js"></script>
   </body>
 
 </html>

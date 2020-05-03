@@ -41,14 +41,22 @@ body {
         min-width: 100%;
         width: auto;
         height: auto;
-        animation: move 8s;
+        animation: move2 5s;
         animation-iteration-count: infinite;
       }
+
+      @keyframes move2{
+        0% { transform:  scale(1.2)  translateX(10px);}
+        50% { transform: scale(1.1) translateX(-10px);}
+        100% { transform: scale(1.2) translateX(10px); }
+      }
+
+    
 
       #flower > video{
         mix-blend-mode: color-burn;
         position: absolute;
-        top: 79%;
+        top: 70%;
         height: auto;
         width: auto;
         min-width: 100%;
